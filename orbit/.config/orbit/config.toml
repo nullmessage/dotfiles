@@ -1,5 +1,5 @@
 # Window position on screen
-position = "top-right"
+position = "center"
 
 # Margins (in pixels) from screen edges
 margin_top = 10
@@ -15,3 +15,4 @@ window_transition_duration = 250
 # Tab switching transitions: slidehorizontal, slidevertical, slidedown, slideup, slideleft, slideright, crossfade, none
 stack_transition = "slidehorizontal"
 stack_transition_duration = 250
+

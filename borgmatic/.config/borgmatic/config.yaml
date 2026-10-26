@@ -7,6 +7,7 @@ repositories:
     encryption: repokey-blake2
 exclude_patterns:
   - "sh:**/node_modules"
+  - "sh:**/.pio"
   - "sh:home/*/.cache"
   - "sh:home/*/.local/share/Trash"
   - "sh:home/*/.npm"
@@ -16,9 +17,9 @@ exclude_caches: true
 exclude_if_present:
   - .nobackup
 
-keep_weekly: 8
-keep_monthly: 12
-keep_yearly: 3
+keep_weekly: 52
+keep_monthly: 24
+keep_yearly: -1
 
 checks:
   - name: repository
