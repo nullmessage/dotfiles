@@ -37,6 +37,7 @@ superfile
 sway-notification-center
 telnet
 tmatrix
+tmux
 tree
 unzip
 vim
