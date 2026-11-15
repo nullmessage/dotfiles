@@ -27,6 +27,7 @@ meson
 nano
 neovim
 ninja-build
+nmap
 nmon
 ripgrep
 rsync
